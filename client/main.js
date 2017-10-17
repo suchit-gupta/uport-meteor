@@ -12,7 +12,7 @@ Template.hello.onCreated(function helloOnCreated() {
    console.log(credentials)
   });
 });
-
+ 
 Template.hello.helpers({
   counter() {
     return Template.instance().counter.get();
